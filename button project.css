@@ -1,0 +1,31 @@
+html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: rgb(19, 17, 57); 
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .glowing-button {
+            font-size: 40px;
+            color: #35a1e5;
+            padding: 20px 30px;
+            border-radius: 50px;
+            background-color: rgb(13, 13, 40);
+            border: 5px solid #1b98e0;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .glowing-button:hover {
+            color: #83bcc6;
+            border-color: none;
+            box-shadow: 0 0 50px #1b98e0, 0 0 100px #1b98e0, 0 0 150px #1b98e0, 0 0 200px #1b98e0;
+        }
